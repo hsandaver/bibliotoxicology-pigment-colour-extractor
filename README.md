@@ -59,6 +59,10 @@ streamlit run app.py
 The app will load `/Users/hsandaver/Downloads/CCMC628-15.png` automatically if that file is present. You can also upload another image from the sidebar.
 Supported uploads include `png`, `jpg`, `jpeg`, `tif`, `tiff`, and common camera RAW files such as `.nef`, `.dng`, `.cr2`, `.cr3`, and `.arw`.
 
+### Streamlit Community Cloud
+
+Deploy from `app.py` at the repository root. The project uses `opencv-python-headless` because Community Cloud runs without desktop GUI libraries. If deployment uses a very new Python runtime and a native imaging dependency fails to import, redeploy the app with a stable Python version such as 3.11 or 3.12 from Community Cloud's Advanced settings.
+
 ### 4. Optional: run the pipeline without the UI
 
 ```bash

@@ -1,6 +1,6 @@
 streamlit>=1.50
 streamlit-image-coordinates>=0.1.9
-opencv-python>=4.8
+opencv-python-headless>=4.8
 numpy>=1.24
 pandas>=2.0
 Pillow>=10.0
