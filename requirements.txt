@@ -1,0 +1,10 @@
+streamlit>=1.50
+streamlit-image-coordinates>=0.1.9
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+Pillow>=10.0
+rawpy>=0.26
+scikit-image>=0.21
+scipy>=1.10
+matplotlib>=3.7
